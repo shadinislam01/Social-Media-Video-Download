@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaDL AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background">
+    <div class="blur blur1"></div>
+    <div class="blur blur2"></div>
+</div>
+
+<nav class="navbar">
+    <div class="logo">NovaDL AI</div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="admin.html">Admin</a>
+    </div>
+</nav>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="left">
+
+<div class="badge">
+⚡ Professional Video Downloader
+</div>
+
+<h1>
+Download Social Videos
+<span>Instantly</span>
+</h1>
+
+<p>
+Download Facebook, TikTok, Instagram Reels and YouTube Shorts in HD Quality.
+</p>
+
+<div class="search-box">
+
+<input type="text" id="url" placeholder="Paste Video URL Here">
+
+<button onclick="downloadVideo()">
+Download
+</button>
+
+</div>
+
+<div class="loader" id="loader">
+
+<div class="progress">
+<div class="progress-bar"></div>
+</div>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+<div class="right">
+
+<div class="preview-card">
+
+<video controls id="preview">
+<source src="" id="videoSource">
+</video>
+
+<div class="download-buttons">
+
+<a href="#" id="downloadBtn">
+Download Video
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="history-section">
+
+<h2>Download History</h2>
+
+<div id="history"></div>
+
+</div>
+
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>
